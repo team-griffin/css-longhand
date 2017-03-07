@@ -1,0 +1,11 @@
+sudo: required
+
+services:
+  - docker
+
+install:
+  - docker build -f docker/Dockerfile.ci -t team-griffin/css-longhand_ci .
+
+script:
+  - docker run -ti team-griffin/css-longhand_ci /bin/bash -c "yarn run lint:js"
+  - docker run -ti team-griffin/css-longhand_ci /bin/bash -c "yarn run build"
