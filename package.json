@@ -1,6 +1,6 @@
 {
   "name": "@team-griffin/css-longhand",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "lib/index.js",
   "jsnext:main": "lib/index.js",
   "repository": "git@github.com:team-griffin/css-longhand.git",
@@ -35,7 +35,6 @@
     "eslint-plugin-react": "^7.5.1"
   },
   "dependencies": {
-    "lodash.reduce": "^4.6.0",
-    "lodash.upperfirst": "^4.3.1"
+    "ramda": "^0.25.0"
   }
 }
