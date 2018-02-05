@@ -1,6 +1,7 @@
 import * as r from 'ramda';
 
 const upperFirst = (str) => str.charAt(0).toUpperCase() + str.substr(1);
+// eslint-disable-next-line
 // const isObject = (obj) => Object.prototype.toString.call(obj) === '[object Object]';
 
 const longhand = (coreProp, prop) => {
@@ -19,7 +20,9 @@ const longhand = (coreProp, prop) => {
       [k]: v,
     };
     // }
-  }, {}, r.keys(prop));
+  }, {
+
+  }, r.keys(prop));
 };
 
 export default longhand;
