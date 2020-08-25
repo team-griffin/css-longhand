@@ -1,6 +1,6 @@
 {
   "name": "@team-griffin/css-longhand",
-  "version": "1.3.2",
+  "version": "1.4.0",
   "main": "dist/cjs/css-longhand.js",
   "module": "dist/es/css-longhand.js",
   "repository": "git@github.com:team-griffin/css-longhand.git",
@@ -29,7 +29,5 @@
     "rollup-plugin-babel": "^3.0.3",
     "rollup-plugin-local-resolve": "^1.0.7"
   },
-  "dependencies": {
-    "ramda": "^0.x.x"
-  }
+  "dependencies": {}
 }
